@@ -1,4 +1,77 @@
 * {
     padding: 0;
     margin: 0;
+    background: rgb(12, 12, 29);
+    color: white;
+}
+
+.main-box i {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+.main-box h1 {
+    font-size: 30px;
+}
+
+.box {
+    margin: 30px auto;
+    width: 70%;
+    border: 3px solid #73AD21;
+    padding: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 650px;
+}
+
+.login-btn {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.login-btn button {
+    width: 50%;
+    margin: 5px auto;
+    padding: 15px 25px;
+    border-radius: 20px;
+    border-color: gray;
+}
+
+.login-btn i {
+    font-size: 20px;
+}
+
+.login-btn p {
+    margin: 5px 0px 0 0;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.i-teste {
+    color: pink;
+    display: flex;
+    justify-content: space-around;
+}
+
+.hrzt-bar {
+    width: 80%;
+    margin: 30px auto;
+}
+
+form {
+    margin-bottom: 30px;
+    width: 50%;
+}
+
+
+
+footer {
+    align-items: center ;
+    margin: auto;
+    width: 70%;
+    text-align: center;
 }
